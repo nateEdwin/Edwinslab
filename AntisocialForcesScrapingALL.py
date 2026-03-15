@@ -46,10 +46,10 @@ import time
 import re
 
 ANTISOCIAL＿FORCES = ' AND (○○ OR △△ OR □□ OR ☆☆ OR '\
-'○○ OR △△ OR □□ OR ☆☆ OR '\)
+'○○ OR △△ OR □□ OR ☆☆ OR )'
 
 ANTISOCIAL_FORCES_LIST = ["○○" , "△△" , "□□" , "☆☆"\
-    "○○" , "△△" , "□□" , "☆☆"\]
+    "○○" , "△△" , "□□" , "☆☆"]
 
 #相手サーバに負担をかけないために、タイムスリープを設定（１秒以上取っておくと安全）
 #SLEEP_TIME = 1
